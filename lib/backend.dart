@@ -12,7 +12,7 @@ class Backend {
 
   Backend._internal();
 
-  /// Private list of emails. Hardcoded here for testing purposes.
+  /// Private list of products. Hardcoded here for testing purposes.
   final _products = [
     Product(
       id: 1,
@@ -101,12 +101,12 @@ class Backend {
   /// Public API starts here :)
   ///
 
-  /// Returns all emails.
+  /// Returns all products.
   List<Product> getProducts() {
     return _products;
   }
 
-  /// Marks email identified by its id as read.
+  /// Marks products identified by its id as read.
   void markProductsRead(int id) {
     final index = _products.indexWhere((product) => product.id == id);
 
