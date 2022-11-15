@@ -15,7 +15,7 @@ class ProductWidget extends StatelessWidget {
              child: Column(
                children: [
                  GestureDetector(
-                    onTap: () {//obtenenemos los datos por medio de la id
+                    onTap: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
