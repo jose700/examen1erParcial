@@ -10,7 +10,7 @@ class appBarJOSE extends StatelessWidget {
     String name = 'Campuzano Jose';
     return Scaffold(
       appBar: AppBar(
-        title: Text('$name       7moA'),
+        title: Text('$name       8voA'),
         centerTitle: true,
       ),
       body: ListScreen(backend: Backend()),
